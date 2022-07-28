@@ -1,0 +1,91 @@
+/************************tag selectors************************/
+body {
+background-color: hsl(30, 38%, 92%);
+}
+
+/************************class selectors**********************/
+.maincontainer {
+  display: inline-block;
+  margin: 100px 200px 50px 300px;
+
+}
+
+.imagecontainer {
+  background-color: hsl(0, 0%, 100%);
+  width: 400px;
+  border-radius: 10px;
+}
+
+.txtcontainer {
+ display: inline-block;
+ margin-top: 10px;
+ padding-left: 20px;
+}
+
+.headertxt {
+  font-family: Montserrat;
+  color: hsl(228deg, 12%, 48%);
+  font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+
+.h1 {
+  font-size: 40px;
+  text-align: left;
+  font-family: Fraunces;
+}
+
+.prgf {
+  display: inline-block;
+  text-align: left;
+  font-family: Montserrat;
+  color: hsl(228deg, 12%, 48%);
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: semi-expanded;
+}
+
+.btncontainer {
+padding-bottom: 35px;
+padding-right: 20px;
+}
+
+.btn {
+  background-color: hsl(158deg, 36%, 37%);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.btn:hover {
+  background-color: #B4FF9F;
+}
+
+.txtbtn {
+text-align: center;
+
+
+}
+
+.newp {
+  color: hsl(158deg, 36%, 37%);
+  font-family: Fraunces;
+}
+
+.oldp {
+text-decoration: line-through;
+}
+/************************images*******************************/
+.image {
+ width: 400px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+/************************ID selectors*************************/
